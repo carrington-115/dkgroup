@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
-function header() {
+function TopHeader() {
   return (
-    <Header>
+    <TopHeader>
       <div className="logo">
         <img src="../assets/logo.svg" alt="logo" />
       </div>
@@ -22,10 +22,10 @@ function header() {
           Contact us
         </NavLink>
       </nav>
-    </Header>
+    </TopHeader>
   );
 }
 
-export default header;
+export default TopHeader;
 
-const Header = styled.header``;
+const TopHeader = styled.header``;
