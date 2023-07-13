@@ -57,7 +57,7 @@ const HeaderContainer = styled.header`
       display: flex;
       justify-content: space-around;
       align-items: center;
-      width: 45%;
+      width: 55%;
       gap: 0px;
       a {
         text-decoration: none;
@@ -68,6 +68,18 @@ const HeaderContainer = styled.header`
         font-weight: 700;
         line-height: normal;
         font-weight: bold;
+      }
+      .contact-us {
+        padding: 0.15cm 0.6cm;
+        border: 2px solid transparent;
+        border-radius: 20px;
+        color: #000225;
+        background-color: white;
+        &:hover {
+          background-color: transparent;
+          color: white;
+          border-color: white;
+        }
       }
     }
   }
