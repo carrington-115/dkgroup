@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 
 function TopHeader() {
   return (
-    <TopHeader>
+    <HeaderContainer>
       <div className="logo">
-        <img src="../assets/logo.svg" alt="logo" />
+        <img src="../assets/images/logo.svg" alt="logo" />
       </div>
       <nav>
         <NavLink to="/" className="normal">
@@ -22,10 +22,10 @@ function TopHeader() {
           Contact us
         </NavLink>
       </nav>
-    </TopHeader>
+    </HeaderContainer>
   );
 }
 
 export default TopHeader;
 
-const TopHeader = styled.header``;
+const HeaderContainer = styled.header``;
