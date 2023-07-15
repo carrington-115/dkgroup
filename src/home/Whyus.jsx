@@ -48,6 +48,8 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   background: url("/images/home images/icons-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: 100%;
   @media (min-width: 320px) and (max-width: 599px) {
     padding: 0;
     margin: 0;

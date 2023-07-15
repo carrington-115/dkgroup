@@ -23,13 +23,15 @@ function Homecover() {
 export default Homecover;
 
 const PageCover = styled.div`
-  width: 100%;
+  width: 100vw;
   height: 90vh;
   position: relative;
   top: 0;
   right: 0;
   left: 0;
   background: url("/images/home images/page-cover.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
   @media (min-width: 320px) and (max-width: 599px) {
     background: url("/images/home images/mobile-cover.png");
   }

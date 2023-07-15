@@ -56,6 +56,8 @@ const Container = styled.div`
   align-items: center;
   width: 100%;
   background: url("/images/home images/form pattern.svg");
+  background-repeat: no-repeat;
+  background-position: 100%;
   padding: 2cm 0;
 
   .top {
