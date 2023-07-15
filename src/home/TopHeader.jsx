@@ -74,6 +74,9 @@ const HeaderContainer = styled.header`
     .logo {
       width: 200px;
       height: 54.032px;
+      @media (min-width: 320px) and (max-width: 599px) {
+        width: 150px;
+      }
       img {
         width: 100%;
         height: 100%;

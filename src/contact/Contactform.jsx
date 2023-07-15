@@ -109,7 +109,8 @@ const Container = styled.div`
       align-items: center;
       margin-left: 1cm;
       @media (min-width: 320px) and (max-width: 599px) {
-        width: 80%;
+        width: 90%;
+        margin: 0;
         margin-top: 1cm;
       }
       .form {
@@ -125,7 +126,8 @@ const Container = styled.div`
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3),
           0px 8px 12px 6px rgba(0, 0, 0, 0.15);
         @media (min-width: 320px) and (max-width: 599px) {
-          width: 80%;
+          width: 100%;
+          padding: 1.5cm 0.5cm;
         }
         input,
         textarea {

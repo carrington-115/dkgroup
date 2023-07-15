@@ -54,7 +54,7 @@ const AboutContent = styled.div`
   h2 {
     margin-top: 0.5cm;
     @media (min-width: 320px) and (max-width: 599px) {
-      font-size: 32px;
+      font-size: 24px;
     }
   }
   button {
@@ -74,6 +74,7 @@ const AboutContent = styled.div`
     cursor: pointer;
     @media (min-width: 320px) and (max-width: 599px) {
       font-size: 24px;
+      margin-left: 2cm;
     }
     div {
       display: flex;

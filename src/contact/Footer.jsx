@@ -66,7 +66,7 @@ function Footer() {
         </div>
       </div>
       <div className="bottom">
-        <p>Copyright&copy;DK Group 2023 All rights Reserved</p>
+        <p>Copyright&copy;DK Group 2023 </p>
       </div>
     </Container>
   );
@@ -84,6 +84,10 @@ const Container = styled.footer`
   background: #fff;
   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3),
     0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  @media (min-width: 320px) and (max-width: 599px) {
+    padding: 0;
+    padding: 1cm 1cm;
+  }
   .top {
     width: 100%;
     display: flex;
