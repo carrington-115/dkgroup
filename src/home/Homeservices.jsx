@@ -36,11 +36,18 @@ const Container = styled.div`
   justify-content: center;
   padding: 2cm 0;
   gap: 1cm;
+  @media (min-width: 320px) and (max-width: 599px) {
+    flex-direction: column;
+    align-items: center;
+  }
   .text-content {
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (min-width: 320px) and (max-width: 599px) {
+      width: 80%;
+    }
     h1 {
       font-family: Roboto Slab;
       font-size: 32px;
@@ -80,6 +87,9 @@ const Container = styled.div`
   }
   .image-content {
     width: 30%;
+    @media (min-width: 320px) and (max-width: 599px) {
+      width: 80%;
+    }
     img {
       width: 100%;
       height: 100%;

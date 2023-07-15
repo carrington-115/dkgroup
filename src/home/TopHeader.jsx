@@ -23,6 +23,9 @@ function TopHeader() {
             Contact us
           </NavLink>
         </nav>
+        <div className="menu">
+          <img src="/images/home images/menu.svg" alt="" />
+        </div>
       </div>
     </HeaderContainer>
   );
@@ -40,11 +43,34 @@ const HeaderContainer = styled.header`
   display: flex;
   justify-content: center;
   margin-top: 1cm;
+  @media (min-width: 320px) and (max-width: 599px) {
+    background-color: white;
+    position: relative;
+    margin: 0;
+    padding: 0.25cm 0;
+  }
   .inner-content {
     display: flex;
     width: 80%;
     justify-content: space-between;
     align-items: center;
+    .menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.25cm;
+      border-radius: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.07);
+      }
+      svg {
+        color: #000225;
+      }
+      @media (min-width: 600px) {
+        display: none;
+      }
+    }
     .logo {
       width: 200px;
       height: 54.032px;
@@ -59,6 +85,10 @@ const HeaderContainer = styled.header`
       align-items: center;
       width: 55%;
       gap: 0px;
+      @media (min-width: 320px) and (max-width: 599px) {
+        display: none;
+      }
+
       a {
         text-decoration: none;
         color: #fff;

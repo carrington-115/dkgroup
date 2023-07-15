@@ -30,6 +30,9 @@ const PageCover = styled.div`
   right: 0;
   left: 0;
   background: url("/images/home images/page-cover.png");
+  @media (min-width: 320px) and (max-width: 599px) {
+    background: url("/images/home images/mobile-cover.png");
+  }
   .backdrop {
     position: absolute;
     top: 0;
@@ -52,11 +55,19 @@ const PageCover = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (min-width: 320px) and (max-width: 599px) {
+      background-color: transparent;
+      width: 70vw;
+    }
     .content {
       display: flex;
       flex-direction: column;
       margin-left: 1cm;
       gap: 5px;
+      @media (min-width: 320px) and (max-width: 599px) {
+        padding: 5cm 0 0 0;
+        gap: 15px;
+      }
       .aside-text {
         font-family: Roboto Slab;
         font-size: 30px;
@@ -64,6 +75,10 @@ const PageCover = styled.div`
         line-height: normal;
         font-weight: bold;
         color: #000225;
+        @media (min-width: 320px) and (max-width: 599px) {
+          font-size: 24px;
+          color: white;
+        }
       }
       .main-text {
         font-family: Roboto Slab;
@@ -75,6 +90,11 @@ const PageCover = styled.div`
         padding: 0.25cm 0.5cm;
         border-radius: 10px;
         background-color: #000225;
+        @media (min-width: 320px) and (max-width: 599px) {
+          font-size: 40px;
+          background-color: white;
+          color: #000225;
+        }
       }
     }
   }

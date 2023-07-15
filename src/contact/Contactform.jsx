@@ -57,6 +57,7 @@ const Container = styled.div`
   width: 100%;
   background: url("/images/home images/form pattern.svg");
   padding: 2cm 0;
+
   .top {
     width: 100%;
     display: flex;
@@ -72,11 +73,18 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     width: 80%;
+    @media (min-width: 320px) and (max-width: 599px) {
+      flex-direction: column;
+      width: 100%;
+    }
     .contact-info {
       display: flex;
       flex-direction: column;
       width: 30%;
       gap: 0.8cm;
+      @media (min-width: 320px) and (max-width: 599px) {
+        width: 80%;
+      }
       div {
         display: flex;
         gap: 10px;
@@ -90,7 +98,7 @@ const Container = styled.div`
           font-size: 24px;
           font-style: normal;
           font-weight: 400;
-          line-height: normal;
+          line-height: 1cm;
         }
       }
     }
@@ -99,6 +107,11 @@ const Container = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-left: 1cm;
+      @media (min-width: 320px) and (max-width: 599px) {
+        width: 80%;
+        margin-top: 1cm;
+      }
       .form {
         display: flex;
         flex-direction: column;
@@ -111,6 +124,9 @@ const Container = styled.div`
         border-radius: 20px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3),
           0px 8px 12px 6px rgba(0, 0, 0, 0.15);
+        @media (min-width: 320px) and (max-width: 599px) {
+          width: 80%;
+        }
         input,
         textarea {
           width: 80%;

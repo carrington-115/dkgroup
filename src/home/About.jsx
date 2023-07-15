@@ -47,9 +47,15 @@ const AboutContent = styled.div`
     font-size: 54px;
     padding-bottom: 0.5cm;
     border-bottom: 2px solid white;
+    @media (min-width: 320px) and (max-width: 599px) {
+      font-size: 40px;
+    }
   }
   h2 {
     margin-top: 0.5cm;
+    @media (min-width: 320px) and (max-width: 599px) {
+      font-size: 32px;
+    }
   }
   button {
     align-self: flex-start;
@@ -66,11 +72,17 @@ const AboutContent = styled.div`
     border-bottom: 2px solid white;
     color: white;
     cursor: pointer;
+    @media (min-width: 320px) and (max-width: 599px) {
+      font-size: 24px;
+    }
     div {
       display: flex;
       justify-content: space-around;
       img {
         padding-left: 0.5cm;
+        @media (min-width: 320px) and (max-width: 599px) {
+          width: 1cm;
+        }
       }
     }
     &:hover {

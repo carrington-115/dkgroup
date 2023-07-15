@@ -90,6 +90,11 @@ const Container = styled.footer`
     justify-content: center;
     gap: 1cm;
 
+    @media (min-width: 320px) and (max-width: 599px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
     .special-links,
     .social-links {
       display: flex;
@@ -127,12 +132,21 @@ const Container = styled.footer`
     }
     .logo {
       width: 25%;
+      @media (min-width: 320px) and (max-width: 599px) {
+        width: 80%;
+      }
     }
     .special-links {
       width: 25%;
+      @media (min-width: 320px) and (max-width: 599px) {
+        width: 80%;
+      }
     }
     .social-links {
       width: 25%;
+      @media (min-width: 320px) and (max-width: 599px) {
+        width: 80%;
+      }
     }
   }
 `;

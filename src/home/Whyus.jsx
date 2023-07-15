@@ -48,6 +48,11 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   background: url("/images/home images/icons-pattern.svg");
+  @media (min-width: 320px) and (max-width: 599px) {
+    padding: 0;
+    margin: 0;
+    padding: 0 0.5cm;
+  }
   h1 {
     margin: 1.5cm 0 0.5cm 0;
     font-family: Roboto Slab;
@@ -55,6 +60,9 @@ const Container = styled.div`
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    @media (min-width: 320px) and (max-width: 599px) {
+      font-size: 36px;
+    }
   }
   .content {
     width: 88%;
@@ -62,6 +70,12 @@ const Container = styled.div`
     justify-content: space-around;
     align-items: flex-start;
     padding-bottom: 1.5cm;
+    @media (min-width: 320px) and (max-width: 599px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 0.5cm;
+      width: 95%;
+    }
   }
 `;
 
@@ -70,21 +84,36 @@ const UsContainer = styled.div`
   flex-direction: column;
   width: 22%;
   gap: 0.5cm;
+  @media (min-width: 320px) and (max-width: 599px) {
+    width: 90%;
+  }
   .icon {
     width: 150px;
     height: 150px;
+    @media (min-width: 320px) and (max-width: 599px) {
+      width: 100px;
+      height: 100px;
+    }
     img {
       width: 100%;
       height: 100%;
     }
   }
   .content-text {
+    width: 100%;
     p {
       font-family: Roboto Slab;
       font-size: 20px;
       font-style: normal;
       font-weight: normal;
       line-height: normal;
+      @media (min-width: 320px) and (max-width: 599px) {
+        color: #000;
+        font-family: Roboto Slab;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+      }
     }
   }
 `;
