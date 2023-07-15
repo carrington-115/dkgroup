@@ -11,9 +11,7 @@ function Aboutcover() {
         <div className="content">
           <h2 className="aside-text">Learn about</h2>
           <h2 className="main-text">DK GROUP</h2>
-          <h2 className="aside-text">
-            Vision and Mission
-          </h2>
+          <h2 className="aside-text">Vision and Mission</h2>
         </div>
       </div>
     </PageCover>
@@ -33,7 +31,7 @@ const PageCover = styled.div`
   background-repeat: no-repeat;
   background-position: 100%;
   @media (min-width: 320px) and (max-width: 599px) {
-    background: url("/images/home images/mobile-cover.png");
+    background: url("/images/about images/about-mobile-cover.png");
   }
   .backdrop {
     position: absolute;

@@ -59,8 +59,18 @@ const Container = styled.div`
     align-items: center;
     background: url("/images/about images/founder-patterns.svg");
     padding: 1.5cm 0;
+    @media (min-width: 320px) and (max-width: 599px) {
+      flex-direction: column;
+    }
     .founder-image {
       width: 35%;
+      @media (min-width: 320px) and (max-width: 599px) {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1cm;
+      }
       img {
         width: 80%;
         height: 80%;
@@ -68,6 +78,12 @@ const Container = styled.div`
     }
     .founder-text {
       width: 50%;
+      @media (min-width: 320px) and (max-width: 599px) {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       p {
         text-align: justify;
       }
@@ -79,6 +95,9 @@ const Container = styled.div`
     align-items: center;
     padding: 2cm 0;
     background: url("/images/about images/ceoquote.png");
+    @media (min-width: 320px) and (max-width: 599px) {
+      background: url("/images/about images/mission-mobile-back.png");
+    }
     h1 {
       color: #fff;
       text-align: justify;
@@ -89,6 +108,9 @@ const Container = styled.div`
       line-height: normal;
       margin-bottom: 0.5cm;
       width: 70%;
+      @media (min-width: 320px) and (max-width: 599px) {
+        font-size: 48px;
+      }
     }
     h2 {
       color: #fff;
@@ -99,6 +121,10 @@ const Container = styled.div`
       font-weight: 600;
       line-height: normal;
       width: 70%;
+      @media (min-width: 320px) and (max-width: 599px) {
+        font-size: 30px;
+        width: 90%;
+      }
     }
   }
 `;
