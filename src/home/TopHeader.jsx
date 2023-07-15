@@ -13,13 +13,13 @@ function TopHeader() {
           <NavLink to="/" className="normal">
             Home
           </NavLink>
-          <NavLink to="/" className="normal">
+          <NavLink to="/aboutus" className="normal">
             About us
           </NavLink>
-          <NavLink to="/" className="normal">
+          <NavLink to="/services" className="normal">
             Services
           </NavLink>
-          <NavLink to="/" className="contact-us">
+          <NavLink to="/contactus" className="contact-us">
             Contact us
           </NavLink>
         </nav>
