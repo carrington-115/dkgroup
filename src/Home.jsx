@@ -4,6 +4,8 @@ import Homecover from "./home/Homecover";
 import About from "./home/About";
 import Whyus from "./home/Whyus";
 import Homeservices from "./home/Homeservices";
+import Contactform from "./contact/Contactform";
+import Footer from "./contact/Footer";
 
 function Home() {
   return (
@@ -12,6 +14,8 @@ function Home() {
       <About />
       <Whyus />
       <Homeservices />
+      <Contactform />
+      <Footer />
     </Container>
   );
 }
