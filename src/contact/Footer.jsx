@@ -19,19 +19,19 @@ function Footer() {
             <GoLinkExternal />
           </span>
           <span>
-            <Link className="page-link" to="/">
+            <Link className="page-link" to="/aboutus">
               About us
             </Link>
             <GoLinkExternal />
           </span>
           <span>
-            <Link className="page-link" to="/">
+            <Link className="page-link" to="/services">
               Services
             </Link>
             <GoLinkExternal />
           </span>
           <span>
-            <Link className="page-link" to="/">
+            <Link className="page-link" to="/contactus">
               Contact us
             </Link>
             <GoLinkExternal />
