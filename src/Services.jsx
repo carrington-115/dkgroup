@@ -2,8 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import TopHeader from "./home/TopHeader";
 import Footer from "./contact/Footer";
+import { useNavigate } from "react-router-dom";
 
 function Services() {
+  let navigate = useNavigate();
   return (
     <MainContainer>
       <Container>
@@ -36,7 +38,7 @@ function Services() {
                 market expansion services and how we can help you achieve your
                 business goals.
               </p>
-              <button>Contact us</button>
+              <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
             <div className="service-item">
               <h2>2. Public Relations</h2>
@@ -58,7 +60,7 @@ function Services() {
                 services provide businesses with customized solutions that meet
                 their unique needs and help them achieve their PR goals.
               </p>
-              <button>Contact us</button>
+              <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
             <div className="service-item">
               <h2>3. Economic Intelligence</h2>
@@ -75,7 +77,7 @@ function Services() {
                 analysis, and competitive analysis allow them to provide
                 customized economic intelligence solutions to businesses.
               </p>
-              <button>Contact us</button>
+              <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
             <div className="service-item">
               <h2>4. Sales Representation</h2>
@@ -95,7 +97,7 @@ function Services() {
                 their products at trade shows and other industry events to
                 establish new business relationships.
               </p>
-              <button>Contact us</button>
+              <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
             <div className="service-item">
               <h2>5. Project Planning and Management</h2>
@@ -115,7 +117,7 @@ function Services() {
                 and experience in project management, businesses can achieve
                 their project goals efficiently and effectively.
               </p>
-              <button>Contact us</button>
+              <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
             <div className="service-item">
               <h2>6. Liaison Services</h2>
@@ -137,7 +139,7 @@ function Services() {
                 communication channels and processes to ensure that different
                 teams are working together effectively.
               </p>
-              <button>Contact us</button>
+              <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
             <div className="service-item">
               <h2>7. Business-to-Government</h2>
@@ -159,7 +161,7 @@ function Services() {
                 Group provides customized B2G solutions that meet the unique
                 needs of each business.
               </p>
-              <button>Contact us</button>
+              <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
             <div className="service-item">
               <h2>8. Translation Services</h2>
@@ -181,7 +183,7 @@ function Services() {
                 Group provides customized B2G solutions that meet the unique
                 needs of each business.
               </p>
-              <button>Contact us</button>
+              <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
           </div>
         </div>

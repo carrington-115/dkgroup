@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { AiOutlineArrowRight } from "react-icons/ai";
-
+import { useNavigate } from "react-router-dom";
 function Aboutservices() {
+  let navigate = useNavigate();
   return (
     <Container>
       <section className="inner-section">
@@ -20,7 +21,7 @@ function Aboutservices() {
               establishing local partnerships, identifying potential customers,
               and navigating regulatory and legal requirements.
             </p>
-            <button>Learn more</button>
+            <button onClick={() => navigate("/services")}>Learn more</button>
           </div>
           <div className="service-two">
             <h3>Public Relations</h3>
@@ -31,11 +32,11 @@ function Aboutservices() {
               identifying relevant influencers, and managing influencer
               relationships.
             </p>
-            <button>Learn more</button>
+            <button onClick={() => navigate("/services")}>Learn more</button>
           </div>
         </div>
         <div className="bottom-button">
-          <button>
+          <button onClick={() => navigate("/services")}>
             See all <AiOutlineArrowRight />
           </button>
         </div>

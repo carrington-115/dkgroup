@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-
+import { useNavigate } from "react-router-dom";
 function About() {
+  let navigate = useNavigate();
   return (
     <AboutContent>
       <h1>About us</h1>
@@ -12,7 +13,7 @@ function About() {
         the development and improve sales for new and established businesses in
         Africa”
       </h2>
-      <button>
+      <button onClick={() => navigate("/aboutus")}>
         <div>
           Learn More
           <img src="/arrow_forward.svg" alt="forward-arrow" />

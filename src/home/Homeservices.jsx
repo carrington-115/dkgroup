@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-
+import { useNavigate } from "react-router-dom";
 function Homeservices() {
+  let navigate = useNavigate();
   return (
     <Container>
       <div className="text-content">
@@ -16,7 +17,7 @@ function Homeservices() {
           <li>Business to Government</li>
           <li>Translation services</li>
         </ol>
-        <button>Learn more</button>
+        <button onClick={() => navigate("/services")}>Learn more</button>
       </div>
       <div className="image-content">
         <img
