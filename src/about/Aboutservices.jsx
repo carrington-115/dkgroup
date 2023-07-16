@@ -52,12 +52,16 @@ const Container = styled.section`
   align-items: center;
   width: 100%;
   padding: 2cm 0;
+
   .inner-section {
     width: 80%;
     border: 1px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    @media (min-width: 320px) and (max-width: 599px) {
+      width: 100%;
+    }
     .top,
     .bottom,
     .bottom-button {
@@ -74,6 +78,9 @@ const Container = styled.section`
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        @media (min-width: 320px) and (max-width: 599px) {
+          text-align: center;
+        }
       }
     }
     .bottom {
@@ -81,6 +88,10 @@ const Container = styled.section`
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 30px;
       justify-content: center;
+      @media (min-width: 320px) and (max-width: 599px) {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+      }
       .service-one,
       .service-two {
         display: flex;
@@ -92,6 +103,11 @@ const Container = styled.section`
         width: 80%;
         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3),
           0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+        @media (min-width: 320px) and (max-width: 599px) {
+          width: 80%;
+          padding: 1cm 0.5cm;
+          border-radius: 20px;
+        }
         h3 {
           color: #000225;
           text-align: center;
@@ -101,6 +117,9 @@ const Container = styled.section`
           font-weight: 600;
           line-height: normal;
           margin-bottom: 0.5cm;
+          @media (min-width: 320px) and (max-width: 599px) {
+            font-size: 24px;
+          }
         }
         p {
           color: #000225;
@@ -111,6 +130,9 @@ const Container = styled.section`
           font-weight: 400;
           line-height: normal;
           margin-bottom: 0.5cm;
+          @media (min-width: 320px) and (max-width: 599px) {
+            font-size: 16px;
+          }
         }
         button {
           padding: 0.15cm 0.5cm;
@@ -118,14 +140,14 @@ const Container = styled.section`
           font-style: normal;
           font-weight: 400;
           line-height: normal;
-          color: #000225;
-          background-color: transparent;
+          color: white;
+          background-color: #000225;
           border-radius: 10px;
           border: 1px solid #000225;
           cursor: pointer;
           &:hover {
-            color: white;
-            background-color: #000225;
+            color: #000225;
+            background-color: white;
           }
         }
       }
