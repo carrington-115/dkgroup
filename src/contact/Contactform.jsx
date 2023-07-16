@@ -25,7 +25,7 @@ function Contactform() {
           <div>
             <HiOutlinePhone />
             <p>
-              +237 677193548 <br /> +237 677193548 <br /> +237 677193548
+              +237 677193548 <br /> +237 699987565
             </p>
           </div>
         </div>
