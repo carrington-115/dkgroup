@@ -109,7 +109,7 @@ const Container = styled.div`
       margin-bottom: 0.5cm;
       width: 70%;
       @media (min-width: 320px) and (max-width: 599px) {
-        font-size: 48px;
+        font-size: 32px;
       }
     }
     h2 {
@@ -122,7 +122,7 @@ const Container = styled.div`
       line-height: normal;
       width: 70%;
       @media (min-width: 320px) and (max-width: 599px) {
-        font-size: 30px;
+        font-size: 24px;
         width: 90%;
       }
     }
