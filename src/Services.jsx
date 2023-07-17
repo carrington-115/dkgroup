@@ -19,46 +19,36 @@ function Services() {
             <div className="service-item">
               <h2>1. Market Expansion</h2>
               <p>
-                &nbsp; &nbsp;We understand the challenges businesses face when
-                it comes to expanding into new markets, which is why our market
-                expansion services are designed to make the process as seamless
-                as possible. Our team of experienced professionals will work
-                closely with you to identify the most relevant markets for your
-                business and develop a tailored strategy that aligns with your
-                goals and resources. We offer a full range of services to
-                support your expansion efforts, including market research,
-                market analysis, and market entry strategy development. Our team
-                will help you navigate regulatory and legal requirements,
-                establish local partnerships, and identify potential customers
-                and partners. With our help, you can shorten your time to market
-                and find new streams of income. Whether you're launching a new
-                product or service or prioritizing a market, we have the
-                expertise and resources to help you expand successfully in
-                Africa and beyond. Contact us today to learn more about our
-                market expansion services and how we can help you achieve your
-                business goals.
+                &nbsp; &nbsp;We help you from finding customers to getting
+                partnerships through out Africa. From launching a new product or
+                service, or prioritizing a market, our goal is to help you
+                expand as smooth as possible. Our experienced team will help you
+                shorten your time to market, find you new streams of income from
+                our full range of services that cover the entire process from
+                identifying the relevant markets and developing a strategy to
+                finding new customers and partners.
               </p>
               <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
             <div className="service-item">
               <h2>2. Public Relations</h2>
               <p>
-                &nbsp; &nbsp; DK Group offers public relations (PR) services to
-                help businesses manage their reputation, build their brand
-                image, and establish positive relationships with stakeholders.
-                Their PR services include reputation management, media
-                relations, crisis management, and content development. DK Group
-                helps businesses develop effective communication strategies to
-                address negative publicity and promote positive messages. They
-                also help businesses build and maintain relationships with the
-                media to secure positive media coverage and manage negative
-                media attention. Additionally, they help businesses develop
-                crisis management plans and communications strategies to manage
-                crises effectively. DK Group also assists businesses in creating
-                content that resonates with their target audience and supports
-                their business objectives. Overall, DK Group's public relations
-                services provide businesses with customized solutions that meet
-                their unique needs and help them achieve their PR goals.
+                &nbsp; &nbsp; We offer public relations (PR) services to help
+                businesses manage their reputation, build their brand image, and
+                establish positive relationships with stakeholders. Their PR
+                services include reputation management, media relations, crisis
+                management, and content development. We help businesses develop
+                effective communication strategies to address negative publicity
+                and promote positive messages. They also help businesses build
+                and maintain relationships with the media to secure positive
+                media coverage and manage negative media attention. Furthermore,
+                we help businesses develop crisis management plans and
+                communications strategies to manage crises effectively. We also
+                assist businesses in creating content that resonates with their
+                target audience and supports their business objectives. Overall,
+                our public relations services provide businesses with customized
+                solutions that meet their unique needs and help them achieve
+                their PR goals.
               </p>
               <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
@@ -86,16 +76,14 @@ function Services() {
                 to help businesses promote and sell their products to new
                 markets and customers. Their services include market analysis,
                 sales representation, channel development, and trade show
-                representation. DK Group helps businesses identify opportunities
-                and challenges in the target market, develop effective product
+                representation. We help businesses identify opportunities and
+                challenges in the target market, develop effective product
                 representation strategies, and establish relationships with
                 local partners who can effectively market and sell the
-                business's products. They also provide access to local sales
+                business's products. We also provide access to local sales
                 representatives who have a deep understanding of the local
                 market and can effectively promote and sell the business's
-                products. Additionally, DK Group helps businesses represent
-                their products at trade shows and other industry events to
-                establish new business relationships.
+                products.
               </p>
               <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
@@ -104,18 +92,18 @@ function Services() {
               <p>
                 &nbsp; &nbsp; The team works closely with businesses to develop
                 project plans that identify project goals, timelines, budgets,
-                and resource requirements. They provide end-to-end project
+                and resource requirements. We provide end-to-end project
                 management services to ensure that projects are executed
                 efficiently and effectively. The team also offers ongoing
                 monitoring and control services to ensure that projects are on
                 track and that any issues or risks are identified and addressed
-                promptly. Lastly, they conduct post-project evaluations to
+                promptly. Additionally, we conduct post-project evaluations to
                 assess project outcomes and identify areas for improvement.
                 Overall, DK Group's project planning and management services
                 help businesses reduce project risks, improve project outcomes,
-                and maximize their return on investment. With their expertise
-                and experience in project management, businesses can achieve
-                their project goals efficiently and effectively.
+                and maximize their return on investment. With our expertise and
+                experience in project management, businesses can achieve their
+                project goals.
               </p>
               <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
@@ -144,22 +132,14 @@ function Services() {
             <div className="service-item">
               <h2>7. Business-to-Government</h2>
               <p>
-                &nbsp; &nbsp; DK Group helps businesses identify and secure
-                government contracts, access government funding programs, comply
-                with regulatory requirements, and secure permits and licenses
-                required for their operations. They also help businesses
-                establish effective communication channels with government
-                agencies, navigate the complex procurement process, and prepare
-                grant applications. Additionally, they provide businesses with
-                insights into regulatory changes and requirements and help them
-                develop effective compliance strategies. Overall, DK Group's B2G
-                services help businesses access government funding programs,
-                comply with regulatory requirements, and establish positive
-                relationships with government agencies. With their expertise and
-                experience in government contracting, grants and funding,
-                regulatory compliance, and permit and license acquisition, DK
-                Group provides customized B2G solutions that meet the unique
-                needs of each business.
+                &nbsp; &nbsp; Our relation with governmental structures and
+                other public sector stakeholders is an important tool for
+                success. We have connections that obtains maximum value across
+                Africa. After a detailed analyses of the public sector in your
+                preferred markets, we will help you navigate complex structures
+                and provide you access to communication with key stakeholders at
+                all levels. Increasing your chances of winning public deals and
+                significantly minimizing your cost and risk of expansion
               </p>
               <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
@@ -230,6 +210,8 @@ const Container = styled.div`
         left: 20%;
         top: 50%;
         font-size: 48px;
+        width: 50%;
+        text-align: center;
       }
     }
   }
