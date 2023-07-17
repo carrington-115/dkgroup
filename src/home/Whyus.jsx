@@ -16,7 +16,7 @@ function Whyus() {
         />
         <WhyUsItem
           url="/images/home images/expert icon.svg"
-          details="The DK Group team has experts who have lived ans worked abroad and in Africa with decades of experience helping foreign compnaies establish and grow in Africa"
+          details="The DK Group team has experts who have lived and worked abroad and in Africa with decades of experience helping foreign compnaies establish and grow in Africa"
         />
         <WhyUsItem
           url="/images/home images/africa-icon.svg"

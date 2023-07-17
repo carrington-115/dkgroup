@@ -12,7 +12,7 @@ function Homecover() {
           <h2 className="aside-text">WELCOME TO</h2>
           <h2 className="main-text">DK GROUP</h2>
           <h2 className="aside-text">
-            Your vision, <br /> our Mission
+            Your vision, <br /> our Future
           </h2>
         </div>
       </div>
