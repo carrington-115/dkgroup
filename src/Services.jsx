@@ -291,6 +291,7 @@ const Container = styled.div`
           text-align: justify;
           @media (min-width: 320px) and (max-width: 599px) {
             font-size: 12px;
+            word-spacing: 0.5px;
           }
         }
         button {
