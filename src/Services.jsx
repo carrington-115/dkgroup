@@ -146,22 +146,23 @@ function Services() {
             <div className="service-item">
               <h2>8. Translation Services</h2>
               <p>
-                &nbsp; &nbsp; DK Group helps businesses identify and secure
-                government contracts, access government funding programs, comply
-                with regulatory requirements, and secure permits and licenses
-                required for their operations. They also help businesses
-                establish effective communication channels with government
-                agencies, navigate the complex procurement process, and prepare
-                grant applications. Additionally, they provide businesses with
-                insights into regulatory changes and requirements and help them
-                develop effective compliance strategies. Overall, DK Group's B2G
-                services help businesses access government funding programs,
-                comply with regulatory requirements, and establish positive
-                relationships with government agencies. With their expertise and
-                experience in government contracting, grants and funding,
-                regulatory compliance, and permit and license acquisition, DK
-                Group provides customized B2G solutions that meet the unique
-                needs of each business.
+                &nbsp; &nbsp; At DK Group, we understand the importance of
+                effective communication in building successful business
+                relationships. That's why we offer top-quality translation
+                services from English to French and vice versa. Our team of
+                experienced translators is well-versed in both languages and has
+                a deep understanding of the cultural nuances that can make or
+                break a business deal. We work closely with our clients to
+                understand their unique needs and provide customized solutions
+                that meet their specific requirements. Our translators are
+                experts in legal, financial, marketing, and other
+                business-critical content, ensuring that your message is
+                conveyed accurately and effectively. If you're looking to expand
+                your business into the French-speaking market or communicate
+                with French-speaking stakeholders, look no further than DK
+                Group's English to French translation services. Our customized
+                solutions will help you break through language barriers and
+                build successful business relationships.
               </p>
               <button onClick={() => navigate("/contactus")}>Contact us</button>
             </div>
